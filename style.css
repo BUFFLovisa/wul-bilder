@@ -1,0 +1,34 @@
+.body{
+font-size: 1.2rem;
+font-family: sans-serif;
+}
+
+.wrapper {
+    max-width: 65ch;
+    margin-inline: auto;
+    padding-top: 3rem;
+}
+
+.ul{
+    list-style: none;
+    padding: 0;
+}
+
+.img{
+    max-width: 100%;
+    width: 100%;
+}
+
+.image-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15rem;
+
+
+}
+
+.image-list > li{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 15rem;
+}
